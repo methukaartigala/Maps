@@ -6,7 +6,7 @@ This GitHub repository contains a Flask-based web service that provides navigati
 
 The main components of this repository are as follows:
 
-app.py: This file contains the implementation of the Flask web service. It defines the school's graph as an adjacency list and utilizes Dijkstra's algorithm to find the shortest path between two given locations within the school. The web service listens on the endpoint /shortest_path, where users can send a POST request with the source and destination nodes to receive the navigation information.
+main.py: This file contains the implementation of the Flask web service. It defines the school's graph as an adjacency list and utilizes Dijkstra's algorithm to find the shortest path between two given locations within the school. The web service listens on the endpoint /shortest_path, where users can send a POST request with the source and destination nodes to receive the navigation information.
 
 create_graph(): A helper function that defines the school's graph. Each edge in the graph includes the destination node and a tuple representing the distance and textual directions between the two nodes.
 
